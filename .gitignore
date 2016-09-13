@@ -1,0 +1,17 @@
+.*.mod
+.*.cmd
+.tmp_versions
+Module.symvers
+*.mod.*
+*.o
+*.ko
+modules.order
+*.swp
+*~
+module/certs/signing_key.priv
+module/certs/signing_key.x509       
+*.unsigned
+*.elf
+moc_*
+ui_*
+demo/qmanager/Makefile
