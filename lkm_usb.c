@@ -63,8 +63,9 @@ static struct usb_device_id lkm_usb_table [] = {
   /* USB storage*/
   { USB_DEVICE_INFO(USB_CLASS_MASS_STORAGE, 6, 50) },
   { USB_INTERFACE_INFO(USB_CLASS_MASS_STORAGE, 6, 50) },
-  /* Custom Id Product: Voyager Mini, Manufacturer: Corsair */
-  { USB_DEVICE(LKM_USB_VENDOR_ID, LKM_USB_PRODUCT_ID) },
+  /* Id Product: Voyager Mini, Manufacturer: Corsair -> USB Key */
+  { USB_DEVICE(0x1b1c, 0x0b29) },
+  /* Id Product: MotoG3, Manufacturer: motorola -> Smartphone*/
   { USB_DEVICE(0x22b8, 0x2e76) },
   { }					/* Terminating entry */
 };
