@@ -44,12 +44,6 @@
 /* #define my_usb_buff_free(udev, length, buf, dma) usb_buffer_free(udev, length, buf, dma) */
 #define my_usb_buff_free(udev, length, buf, dma) usb_free_coherent(udev, length, buf, dma)
 
-/* Define these values to match your devices */
-#define LKM_USB_VENDOR_ID	0x1b1c
-/* #define LKM_USB_VENDOR_ID	0xfff0 */
-#define LKM_USB_PRODUCT_ID	0x0b29
-/* #define LKM_USB_PRODUCT_ID	0xfff0 */
-
 /* table of devices that work with this driver (I have added some USB devices) */
 static struct usb_device_id lkm_usb_table [] = {
   { USB_DEVICE_INFO(USB_CLASS_HUB, 0, 0), },
