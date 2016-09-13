@@ -1,6 +1,6 @@
 /**
 *******************************************************************************
-* @file lkm_thread.c
+* @file lkm_usb.c
 * @author Keidan
 * @par Project lkm_thread
 * @copyright Copyright 2016 Keidan, all right reserved.
